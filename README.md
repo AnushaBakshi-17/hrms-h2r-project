@@ -21,5 +21,19 @@ python app.py
 
 Open: http://127.0.0.1:5000/
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### ➕ Add Employee
+![Add Employee](screenshots/hire.png)
+
+### 👥 Employee List
+![Employee List](screenshots/view.png)
+
+### 💰 Payroll
+![Payroll](screenshots/payroll.png)
+
 ## 👩‍💻 Author
 Anusha
