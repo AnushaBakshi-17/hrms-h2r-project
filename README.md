@@ -36,4 +36,5 @@ Open: http://127.0.0.1:5000/
 ![Payroll](screenshots/payroll.png)
 
 ## 👩‍💻 Author
-Anusha
+Anusha Bakshi
+🎓 Student | 💻 Developer  
