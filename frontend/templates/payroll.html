@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payroll</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>💰 Payroll Details</h2>
+
+{% for emp in employees %}
+<p>{{emp["name"]}} → ₹{{emp["salary"]}}</p>
+{% endfor %}
+
+<br>
+<a href="/">⬅ Back</a>
+
+</body>
+</html>

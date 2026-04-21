@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employees</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>👥 Employee List</h2>
+
+<table>
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Salary</th>
+    <th>Action</th>
+</tr>
+
+{% for emp in employees %}
+<tr>
+    <td>{{emp["id"]}}</td>
+    <td>{{emp["name"]}}</td>
+    <td>{{emp["role"]}}</td>
+    <td>₹{{emp["salary"]}}</td>
+    <td><a href="/retire/{{emp['id']}}">Retire</a></td>
+</tr>
+{% endfor %}
+</table>
+
+<br>
+<a href="/">⬅ Back</a>
+
+</body>
+</html>

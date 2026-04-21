@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 25px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background: black;
+    color: white;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: white;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
